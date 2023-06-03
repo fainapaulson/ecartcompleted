@@ -1,0 +1,38 @@
+<div class="container w-50 text-center">
+    <h2 class="mb-5 mt-3">Add New Product</h2>
+    <form  [formGroup]="addForm" (ngSubmit)="addProduct()" id="f" class="container border bg-light">
+        <input  formControlName="id" type="text" class="form-control mt-3 p-2" placeholder="id" name="pin" id="pin">
+        <div *ngIf ="(this.addForm.get('id')?.errors)&&(this.addForm.get('id')?.touched)">
+            <p class="text-danger text-center">must contain numbers only</p> 
+         </div>
+
+        <input  formControlName="productName" type="text" class="form-control mt-3 p-2" placeholder="productName" name="pin1" id="pin1">
+        <div *ngIf ="(this.addForm.get('productName')?.errors)&&(this.addForm.get('productName')?.touched)">
+            <p class="text-danger text-center">must contain letters only</p> 
+         </div>
+
+        <input  formControlName="catId" type="text" class="form-control mt-3 p-2" placeholder="categoryId" name="pin2" id="pin2">
+        <div *ngIf ="(this.addForm.get('catId')?.errors)&&(this.addForm.get('catId')?.touched)">
+            <p class="text-danger text-center">must contain numbers only</p> 
+         </div>
+
+        <input  formControlName="discr" type="text" class="form-control mt-3 p-2" placeholder="description" name="pin3" id="pin3">
+
+        <input  formControlName="price" type="text" class="form-control mt-3 p-2" placeholder="price" name="pin4" id="pin4">
+        <div *ngIf ="(this.addForm.get('price')?.errors)&&(this.addForm.get('price')?.touched)">
+            <p class="text-danger text-center">must contain numbers only</p> 
+         </div>
+
+        <input  formControlName="isAv" type="text" class="form-control mt-3 p-2" placeholder="isAvailable True/False" name="pin5" id="pin5">
+
+        <input  formControlName="image" type="text" class="form-control mt-3 p-2" placeholder="productImage" name="pin6" id="pin6">
+
+        <input  formControlName="rate" type="text" class="form-control mt-3 p-2" placeholder="rating" name="pin7" id="pin7">
+        <input  formControlName="review" type="text" class="form-control mt-3 p-2" placeholder="review" name="pin8" id="pin8">
+        <div *ngIf ="(this.addForm.get('review')?.errors)&&(this.addForm.get('review')?.touched)">
+            <p class="text-danger text-center">must contain numbers only</p> 
+         </div>
+
+        <button type="submit" class="btn btn-success p-2 mt-3 mb-5" >Add</button>
+    </form>
+</div>

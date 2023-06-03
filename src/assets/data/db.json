@@ -1,0 +1,147 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "saree",
+      "categoryId": 1,
+      "description": "silk saree in blue colour",
+      "price": 4000,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/HnQqqyjQ/silksaree.jpg",
+      "rating": 4.5,
+      "review": 65
+    },
+    {
+      "id": 2,
+      "productName": "saree",
+      "categoryId": 1,
+      "description": "pochampally silk saree",
+      "price": 3000,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/3xHR0XgH/pochampally-saree.jpg",
+      "rating": 4.1,
+      "review": 35
+    },
+    {
+      "id": 3,
+      "productName": "saree",
+      "categoryId": 1,
+      "description": "designer saree",
+      "price": 6000,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/rFyTBfCs/designersaree.jpg",
+      "rating": 3.9,
+      "review": 55
+    },
+    {
+      "id": 4,
+      "productName": "saree",
+      "categoryId": 1,
+      "description": "banarasi silk saree",
+      "price": 9500,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/C1v7zMtW/banarasisaree.jpg",
+      "rating": 4.9,
+      "review": 111
+    },
+    {
+      "id": 5,
+      "productName": "salwar",
+      "categoryId": 2,
+      "description": "golden colour salwar with sleeve",
+      "price": 1500,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/DwsjSV1B/yellowsalwar.jpg",
+      "rating": 3.8,
+      "review": 11
+    },
+    {
+      "id": 6,
+      "productName": "salwar",
+      "categoryId": 2,
+      "description": "pink colour cotton salwar with sleeve",
+      "price": 2500,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/qBPZ4M3z/pinksalwar.jpg",
+      "rating": 3.5,
+      "review": 75
+    },
+    {
+      "id": 7,
+      "productName": "salwar",
+      "categoryId": 2,
+      "description": "green net part wear salwar with sleeve",
+      "price": 1000,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/MG0zbFJY/greensalwar.jpg",
+      "rating": 3.1,
+      "review": 7
+    },
+    {
+      "id": 8,
+      "productName": "salwar",
+      "categoryId": 2,
+      "description": "party wear golden colour salwar",
+      "price": 3500,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/sgsBF7fK/lightyellowsalwar.jpg",
+      "rating": 4.8,
+      "review": 118
+    },
+    {
+      "id": 9,
+      "productName": "dupatta",
+      "categoryId": 3,
+      "description": "kanta stich punjabi dupatta",
+      "price": 850,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/85fZWq6y/greendupatta.jpg",
+      "rating": 3.5,
+      "review": 32
+    },
+    {
+      "id": 10,
+      "productName": "dupatta",
+      "categoryId": 3,
+      "description": "pure handwoven banarasi dupatta",
+      "price": 1250,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/CLcbhcZd/banarasidupatta.jpg",
+      "rating": 4.3,
+      "review": 24
+    },
+    {
+      "id": 11,
+      "productName": "dupatta",
+      "categoryId": 3,
+      "description": "digital print linen dupatta",
+      "price": 500,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/Hs0dXN0s/digitaldupatta.jpg",
+      "rating": 3.9,
+      "review": 43
+    },
+    {
+      "id": 12,
+      "productName": "dupatta",
+      "categoryId": 3,
+      "description": "black and blue ikat dupatta",
+      "price": 450,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/NGzrZ5Zr/ikatdupatta.jpg",
+      "rating": 4.3,
+      "review": 95
+    },
+    {
+      "id": "13",
+      "productName": "dupatta",
+      "catId": "3",
+      "discr": "Mirror Emboridered Net Dupatta for Womens",
+      "price": "999",
+      "isAv": "true",
+      "image": "",
+      "rate": "4.5",
+      "review": "56"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+#logo{
+width: 100px;
+height: 100px;
+}
+#written{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.word{
+    background-image:url("https://i.postimg.cc/3JJzK257/shelf3.jpg");
+    
+    background-size: cover;
+}

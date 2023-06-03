@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#"><img id="logo" src="https://i.postimg.cc/jShb5MWg/logo2.jpg"></a>
+
+        <a class="navbar-brand" id="written" href="product">Fashion Bazar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="product/add">Add New Product</a></li>
+            </ul>
+            <form class="d-flex">
+                <input name="id"  id="r" (keyup)="search($event)" [(ngModel)]="searchData" type="text" placeholder="Search Product" >
+                <button class="btn btn-outline-dark" type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- Header-->
+<header class="word py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-light" id="words">
+            <h1 class="display-4 fw-bolder">The Only Wardrobe You Need</h1>
+            <p class="lead fw-normal mb-0 text-warning">it's not about brand ,it's about style</p>
+        </div>
+    </div>
+</header>
