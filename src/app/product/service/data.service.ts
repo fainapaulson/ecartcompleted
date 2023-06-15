@@ -23,4 +23,12 @@ export class DataService {
   addNewProduct(productObject:any){
     return this.http.post('http://localhost:3000/products',productObject)
   }
+    // api to delete product
+    deleteProduct(id:any){
+      return this.http.delete('http://localhost:3000/products/'+id)
+    }
+    updateProduct(id:any,pdata:any){
+      return this.http.patch('http://localhost:3000/products/'+id,pdata)
+    }
+
 }

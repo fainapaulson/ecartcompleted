@@ -27,7 +27,7 @@
       "productName": "saree",
       "categoryId": 1,
       "description": "designer saree",
-      "price": 6000,
+      "price": "6090",
       "isAvailable": true,
       "productImage": "https://i.postimg.cc/rFyTBfCs/designersaree.jpg",
       "rating": 3.9,
@@ -60,7 +60,7 @@
       "productName": "salwar",
       "categoryId": 2,
       "description": "pink colour cotton salwar with sleeve",
-      "price": 2500,
+      "price": "9765",
       "isAvailable": true,
       "productImage": "https://i.postimg.cc/qBPZ4M3z/pinksalwar.jpg",
       "rating": 3.5,
@@ -126,22 +126,11 @@
       "productName": "dupatta",
       "categoryId": 3,
       "description": "black and blue ikat dupatta",
-      "price": 450,
+      "price": "1000",
       "isAvailable": true,
       "productImage": "https://i.postimg.cc/NGzrZ5Zr/ikatdupatta.jpg",
       "rating": 4.3,
       "review": 95
-    },
-    {
-      "id": "13",
-      "productName": "dupatta",
-      "catId": "3",
-      "discr": "Mirror Emboridered Net Dupatta for Womens",
-      "price": "999",
-      "isAv": "true",
-      "image": "",
-      "rate": "4.5",
-      "review": "56"
     }
   ]
 }

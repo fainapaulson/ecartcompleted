@@ -10,7 +10,7 @@ import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
 import {HttpClientModule } from '@angular/common/http';
 import { SearchPipe } from './search.pipe';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     ProductRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class ProductModule { }
